@@ -1,0 +1,26 @@
+{
+  "name": "workout-tracker",
+  "version": "1.0.0",
+  "description": "Fitness app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDBgit9/Workout-Tracker.git"
+  },
+  "author": "James D Beeks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JDBgit9/Workout-Tracker/issues"
+  },
+  "homepage": "https://github.com/JDBgit9/Workout-Tracker#readme"
+}
