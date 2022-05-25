@@ -15,7 +15,7 @@ mongoose.connect("mongodb://localhost:27017/workout", {
 // routes
 app.use(require("./routes/api.js"));
 
-  res.render('./routes/api.js');
+app.use(require('./routes/api.js'));
 
 app.use(require("./routes/view.js"));
 
