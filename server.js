@@ -7,7 +7,7 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(__dirname + "/public"));
-mongoose.connect("mongodb://localhost:27017/workout", {
+mongoose.connect("mongodb+srv://110120MongoDBatlas_:110120MongoDBatlas_@workout-tracker.bkgq3.mongodb.net/workout", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
